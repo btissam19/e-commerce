@@ -1,0 +1,103 @@
+:root{
+    --green:#33d1cc;
+}
+
+.navbar .navbar-nav .nav-link{
+    color:#33d1cc;
+}
+.navbar .navbar-nav.nav-link:hover{
+  color:#33d1cc;
+}
+.landing{
+    background-color:lightcyan;
+    min-height: calc(50vh);
+  }
+  .footer{
+    margin-top:60px; 
+    background-color:lightcyan;}
+  .start{
+    background-color:lightcyan;
+     width:500px; 
+     margin-left: 30%;
+}
+  .card img {
+    width:300px;
+    height:100px;
+   
+
+}
+.login{
+    height:min-content;
+    width: 500px;
+    background-color:lightcyan  ;
+   border-radius:12px;
+   padding: 5px;
+   margin-left: auto;
+   margin-right:auto;
+   margin-top: 60px;
+  text-align: center;
+
+}
+.form{
+/* width: 300px; */
+margin-left: auto;
+margin-right:auto;
+margin-bottom: 10px;
+
+}
+.login input:hover{
+outline: none;
+color: aqua;
+}
+.form-label{
+font-weight: bold;
+text-decoration: underline ;}
+.submit{
+margin-top: 10px;}
+.contact{
+      display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			height: 100vh;
+    
+}
+ .contact form{
+  display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			width: 80%;
+			max-width: 500px;
+			border: 2px solid lightcyan;
+			padding: 20px;
+			border-radius: 10px;
+      background-color:lightcyan  ;
+}
+.contact form label{
+  margin: 10px 0;
+	font-weight: bold;
+}
+.contact form  input, textarea {
+  padding: 10px;
+  margin:10px 0;
+  width: 400px;
+  border-radius: 5px;
+  border: 1px solid white;
+  font-size: 16px;
+}
+.contact form input[type="submit"] {
+  background-color:lightcyan ;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  width: 80px;
+}
+.contact form input[type="submit"]:hover {
+  background-color:lightcyan ;
+}
+.shope{
+   min-height: calc(50vh);
+  min-width: calc(100vh);
+  background-color:lightcyan ;
+}
